@@ -1,28 +1,45 @@
 /*
-  font-family: "Triodion", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  padding-top: 100px;
-}*/
-
-/*
-  font-family: "Roboto Slab", serif;
+.afacad-<uniquifier> {
+  font-family: "Afacad", serif;
   font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  */
+
+:root {
+  --primary-color: rgba(170, 255, 238);
+  --heading-font-family: "Afacad", serif;
+  --text-font-family: "Poppins", serif;
+}
+
+body {
+  background: black;
+  padding: 50px;
+}
+
+.heading {
+  background: black;
+  text-align: left;
+}
+
+.heading h1 {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-weight: bolder;
+  font-size: 96px;
+}
+
+.heading h2 {
+  color: white;
+  font-family: var(--heading-font-family);
   font-weight: 400;
-  font-style: normal;
-}*/
+  font-size: 20px;
+}
 
-/* 
-.poppins-light {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
-}*/
-
-/*
-.poppins-light-italic {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: italic;
-}*/
+.heading p {
+  color: white;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 18px;
+}
