@@ -60,6 +60,10 @@ a {
   font-size: 50px;
 }
 
+.heading .headshot-image {
+  max-width: 50%;
+}
+
 .featured-projects h2 {
   color: var(--primary-color);
   font-family: var(--heading-font-family);
@@ -100,5 +104,10 @@ a {
 @media (max-width: 768px) {
   .heading h1 {
     font-size: 80px;
+  }
+
+  .heading .headshot-image {
+    max-width: 300px;
+    display: block;
   }
 }
