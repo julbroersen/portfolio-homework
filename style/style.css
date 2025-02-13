@@ -41,11 +41,23 @@ a {
   font-size: 20px;
 }
 
+.heading h3 {
+  color: white;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .heading p {
   color: white;
   font-family: var(--text-font-family);
   font-weight: 400;
   font-size: 16px;
+}
+
+.heading .logo-icons {
+  color: var(--primary-color);
+  font-size: 50px;
 }
 
 .featured-projects h2 {
