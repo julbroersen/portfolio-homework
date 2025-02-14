@@ -13,9 +13,35 @@
   --text-font-family: "Poppins", serif;
 }
 
+nav {
+  padding: 20px 25px;
+}
+
+ul {
+  padding: 10px 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  display: inline;
+  color: var(--primary-color);
+  font-size: 16px;
+  max-width: 100px;
+  padding: 0 20px;
+  transition: all 150ms ease-in-out;
+}
+
+li a:hover {
+  background: var(--primary-color);
+  border-radius: 10px;
+  color: black;
+}
+
 body {
   background: black;
-  padding: 100px 50px 50px 50px;
 }
 
 a {
