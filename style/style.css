@@ -19,7 +19,7 @@ nav {
 
 ul {
   padding: 10px 10px;
-  background: black;
+  background: white;
 }
 
 ul li {
@@ -42,7 +42,7 @@ li a:hover {
 }
 
 body {
-  background: black;
+  background: white;
 }
 
 a {
@@ -57,21 +57,21 @@ a {
 }
 
 .heading h2 {
-  color: white;
+  color: black;
   font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 22px;
 }
 
 .heading h3 {
-  color: white;
+  color: black;
   font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 16px;
 }
 
 .heading p {
-  color: white;
+  color: black;
   font-family: var(--text-font-family);
   font-weight: 400;
   font-size: 16px;
@@ -95,7 +95,7 @@ a {
 }
 
 .featured-projects p {
-  color: white;
+  color: black;
   font-family: var(--text-font-family);
   line-height: 30px;
 }
