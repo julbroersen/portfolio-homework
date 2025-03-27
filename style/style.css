@@ -8,7 +8,8 @@
   */
 
 :root {
-  --primary-color: rgba(205, 193, 255);
+  --primary-color: rgba(113, 89, 160);
+  --secondary-color: rgba(183, 135, 202);
   --heading-font-family: "Afacad", serif;
   --text-font-family: "Poppins", serif;
 }
@@ -19,7 +20,7 @@ nav {
 
 ul {
   padding: 10px 10px;
-  background: white;
+  background: rgba(234, 208, 234);
 }
 
 ul li {
@@ -28,7 +29,7 @@ ul li {
 
 li a {
   display: inline;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 16px;
   max-width: 100px;
   padding: 0 20px;
@@ -38,11 +39,21 @@ li a {
 li a:hover {
   background: var(--primary-color);
   border-radius: 10px;
-  color: black;
+  color: white;
 }
 
 body {
   background: white;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("../images/hero-image-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
 }
 
 a {
@@ -50,14 +61,14 @@ a {
 }
 
 .heading h1 {
-  color: var(--primary-color);
+  color: white;
   font-family: var(--heading-font-family);
   font-weight: bolder;
   font-size: 96px;
 }
 
 .heading h2 {
-  color: black;
+  color: white;
   font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 22px;
@@ -78,6 +89,15 @@ a {
   line-height: 30px;
 }
 
+.heading .icon {
+  color: var(--primary-color);
+}
+
+.heading .accent-words {
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
 .heading .logo-icons {
   color: var(--primary-color);
   font-size: 50px;
@@ -87,6 +107,8 @@ a {
   color: var(--primary-color);
   font-family: var(--heading-font-family);
   font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .featured-projects h3 {
@@ -100,13 +122,17 @@ a {
   line-height: 30px;
 }
 
-.accent-words {
+.featured-projects .images {
+  max-height: 400px;
+}
+
+.featured-projects .accent-words {
   color: var(--primary-color);
   font-weight: bolder;
 }
 
 .primary-button {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   padding: 10px 15px;
   border-radius: 10px;
   color: white;
@@ -117,7 +143,7 @@ a {
   background: var(--primary-color);
   padding: 10px 15px;
   border-radius: 10px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 768px) {
